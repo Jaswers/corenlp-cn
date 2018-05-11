@@ -11,7 +11,6 @@ def Parser(text,nlp):
 		'outputFormat': 'json'
 		})
 
-
 def GetTokens(parsedstr,delimiter=' '):
 	tokens = list()
 	for sentence in parsedstr['sentences']:
